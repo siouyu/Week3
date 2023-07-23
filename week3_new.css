@@ -94,6 +94,7 @@
     width:100%;
 }
 
+
 @media(max-width:1920px){
     .title_frame{
         flex-wrap: wrap;    
@@ -130,6 +131,18 @@
         white-space: nowrap;
         text-overflow: ellipsis;
     }
+}
+.morebtn_frame{
+    display:flex;
+    justify-content: center;
+}
+.morebtn{
+    width:150px;
+    height:50px;
+    border:none;
+    border-radius: 3px;
+    cursor:pointer;
+    background-color:#E0E0E0;
 }
 
 @media(max-width:600px){
